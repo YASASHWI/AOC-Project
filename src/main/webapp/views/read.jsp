@@ -327,7 +327,7 @@ a {
     <div class="title">
         <h1>THE CONSTITUTION OF INDIA</h1>
         <p>WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC and to secure to all its citizens...</p>
-        <a href="#">Read full Preamble →</a> | <a href="#">Original Manuscript PDF</a>
+        <a href="#">Read full Preamble →</a> | <a href="https://www.constitutionofindia.net/wp-content/uploads/2023/03/Original-Manuscript-of-the-Constitution-of-India_New1.pdf">Original Manuscript PDF</a>
     </div>
 
     <div class="content">
