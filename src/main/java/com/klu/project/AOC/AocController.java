@@ -3,6 +3,7 @@ package com.klu.project.AOC;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
+
 @Controller
 public class AocController {
 	
@@ -25,5 +26,12 @@ public class AocController {
 	public String signup() {
 		return "signup";
 	}
+
+	@GetMapping("/read")
+	public String read() {
+		return "read";
+	}
+	
+	
 
 }

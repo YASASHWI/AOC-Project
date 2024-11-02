@@ -14,7 +14,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #fffff0;
             font-family: Arial, sans-serif;
         }
         .navbar {
@@ -79,20 +79,30 @@
             background-color: #f1f1f1;
             border-left: 4px solid #333;
         }
-        .news-section {
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #d3e6ca;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            flex: 0 0 100%; /* Full width on small screens */
-        }
-        .news-item {
-            margin-bottom: 10px;
-            padding: 10px;
-            border: 1px solid black;
-            border-radius: 5px;
-        }
+        .news-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.news-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
         /* Footer style */
         .footer {
             display: flex;
@@ -203,7 +213,7 @@
         
         <!-- Updated Nav Links -->
         <div class="nav-links">
-            <a href="#">Read</a>
+            <a href="/read">Read</a>
             <a href="#">Explore</a>
             <a href="#">Learn</a>
             <a href="#">Engage</a>
